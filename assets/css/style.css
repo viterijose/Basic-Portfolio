@@ -149,9 +149,9 @@ p {
 }
 
 section{
-    position: absolute;
+    position: relative;
     left:0;
-    top:180px;
+    top:-25px;
     height: 600px;
 }
 .connect{
@@ -159,8 +159,8 @@ section{
     height: 200px;
     width: 270px;
     background-color: white;
-    position: relative;
-    top: -28px;
+    position: absolute;
+    top: 183px;
     right: 0;
 
 }
@@ -202,14 +202,6 @@ section{
     top: 15px;
     left: 30px;
 }
-
-.heading-4 {
-    font-family: 'Georgia';
-    font-size: 24px;
-    color: whitesmoke;
-    text-align: left
-}
-
 .Tags{
     height:400px;
     width:520px;
@@ -295,19 +287,131 @@ button{
     right: 485px;
 }
 
+.Random-img{
+
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    align-content: center;
+    position: relative;
+    left:0;
+    top:40px;
+    height: 700px;
+
+}
+#img4{
+    height: 200px;
+    width: 230px;
+    padding: 10px 25px 20px 0;
+    margin: 0 auto;
+}
+#img5{
+    height: 200px;
+    width: 230px;
+    padding: 0 25px 20px 0;
+    margin: 0 auto;
+}
+#img6{
+    height: 200px;
+    width: 230px;
+    padding: 0 25px 20px 0;
+    margin: 0 auto;
+}
+#img7{
+    height: 200px;
+    width: 230px;
+    padding: 10px 15px 20px 0;
+    margin: 0 auto;
+}
+#img8{
+    height: 200px;
+    width: 230px;
+    padding: 0 15px 20px 0;
+    margin: 0 auto;
+}
+
+.hangman {
+    font-family: 'Georgia';
+    font-size: 18px;
+    color: whitesmoke;
+    text-align: center;
+    line-height:40px;
+    height:40px;
+    width: 230px;
+    background-color: rgb(15, 163, 138);
+    position: relative;
+    bottom:540px;
+    left:75px;
+}
+.rpg {
+    font-family: 'Georgia';
+    font-size: 18px;
+    color: whitesmoke;
+    text-align: center;
+    line-height:40px;
+    height:40px;
+    width: 230px;
+    background-color: rgb(15, 163, 138);
+    position: relative;
+    bottom: 605px;
+    left: 330px;
+}
+.trivia {
+    font-family: 'Georgia';
+    font-size: 18px;
+    color: whitesmoke;
+    text-align: center;
+    line-height:40px;
+    height:40px;
+    width: 230px;
+    background-color: rgb(15, 163, 138);
+    position: relative;
+    bottom:450px;
+    left:75px;
+}
+.rutgers {
+    font-family: 'Georgia';
+    font-size: 18px;
+    color: whitesmoke;
+    text-align: center;
+    line-height:40px;
+    height:40px;
+    width: 230px;
+    background-color: rgb(15, 163, 138);
+    position: relative;
+    bottom:515px;
+    left:330px;
+}
+.rock {
+    font-family: 'Georgia';
+    font-size: 18px;
+    color: whitesmoke;
+    text-align: center;
+    line-height:40px;
+    height:40px;
+    width: 230px;
+    background-color: rgb(15, 163, 138);
+    position: relative;
+    bottom:360px;
+    left:75px;
+}
 .site-copyright {
     font-family: 'Arial';
     font-size: 10px;
     color: rgb(154,163,164);
     text-align: center;
-    position: relative;
-    bottom: -700px;
+    /* position: relative;
+    bottom: -280px; */
+    position: absolute;
+    bottom: -150px;
+    left: 460px;
+ 
 }
 .footer{
     height: 126px;
     width: 20000px;
     position: relative;
-    bottom: -840px;
+    bottom: -1030px;
     left: -50px;
     background-color: rgb(102,102,102);
     border: 10px;
