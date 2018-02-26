@@ -1,7 +1,7 @@
 
 
 body{
-    background: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/nZi7nus/elegant-soft-subtle-background-animation-hd-stock-footage-a-beautiful-soft-background-animation-with-subtle-coloring-and-motion_eoh8i9sol__F0000.png);
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/7f/08/0b/7f080b0c5abc307303deb23752ab9c33.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height:900px;
@@ -283,7 +283,10 @@ body{
                     line-height: 30px;
                     margin: 30px 0 60px 0;
                 }
-            button{
+            button:hover{
+                background-color: rgb(9, 112, 95);
+            }
+            button{               
                 height: 40px;
                 width: 100px;
                 text-align: center;
@@ -358,6 +361,9 @@ body{
         top: 183px;
         right: 0;
     }
+        #img1:hover{
+            background-image: url(https://cdn1.iconfinder.com/data/icons/picons-social/57/github-64.png);
+        }
         #img1{
             background-image: url(https://cdn2.iconfinder.com/data/icons/micon-social-pack/512/github2-64.png);
             display:block;
@@ -368,6 +374,9 @@ body{
             left:20px;
             top:40px;
         }
+        #img2:hover{
+            background-image: url(https://cdn3.iconfinder.com/data/icons/picons-social/57/11-linkedin-64.png);
+        }
         #img2{
             background-image: url(https://cdn2.iconfinder.com/data/icons/micon-social-pack/512/linkedin-64.png);
             display:block;
@@ -377,6 +386,9 @@ body{
             float:left;
             left:40px;
             top:40px;
+        }
+        #img3:hover{
+            background-image: url(https://cdn2.iconfinder.com/data/icons/well-known-1/1024/StackOverflow-64.png);
         }
         #img3{
             background-image: url(https://cdn3.iconfinder.com/data/icons/social-media-special/256/stackoverflow-64.png);
