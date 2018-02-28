@@ -1,14 +1,18 @@
 
 
-body{
-    background: url(https://s-media-cache-ak0.pinimg.com/originals/7f/08/0b/7f080b0c5abc307303deb23752ab9c33.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height:900px;
+html , body{
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/69/98/fd/6998fd867b0eaed370b95607cb8be8a6.jpg) no-repeat center center fixed;
+    /* background-size: fill; */
+    /* background-repeat: no-repeat; */
+    height:100%;
+    width:100%;
+    margin:0;
 }
     .header {
         background-color: white;
         height: 126px;
+        width:120%;
+        margin-top:-50px;
         position: absolute;
         top: 0;
         left: 0;
@@ -18,11 +22,16 @@ body{
         padding:0;
     }
     .footer{
-        height: 126px;
-        width: 20000px;
+        text-align:center;
+        height: 120px;
+        width: 120%;
+        font-family: 'Arial';
+        color: rgb(154,163,164);
+        line-height:120px;
+        font-size:10px;
         position: relative;
         bottom: -1030px;
-        left: -50px;
+        left: 0px;
         background-color: rgb(102,102,102);
         border: 10px;
         border-top-style: solid;
@@ -30,11 +39,12 @@ body{
     }
     .container{
         margin:0 auto;
-        padding: 0;
+        padding: 20px;
+        padding-bottom:120px;
         width: 960px;
-        height:950px;
+        min-height:100%;
         position: relative;
-        top:-136px;
+        top:-142px;
         left:0;
     }
         .site-heading-1 {
@@ -358,7 +368,7 @@ body{
         width: 270px;
         background-color: white;
         position: absolute;
-        top: 183px;
+        top: 202px;
         right: 0;
     }
         #img1:hover{
@@ -414,13 +424,16 @@ body{
             top: 15px;
             left: 30px;
         }
-    .site-copyright {
+    /* .site-copyright {
         font-family: 'Arial';
         font-size: 10px;
         color: rgb(154,163,164);
+        line-height:120px;
+        height:120px;
+        margin-top:-120px;
         text-align: center;
         position: absolute;
         bottom: -150px;
         left: 460px;
     
-    }
+    } */
