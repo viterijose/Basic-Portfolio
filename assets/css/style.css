@@ -351,6 +351,8 @@ html , body{
                 border: 10px;
                 float: left;
                 padding: 30px 10px;
+                width:200px;
+                height:200px;
             }
             p {
                 font-family: 'Times New Roman', Times, serif;
