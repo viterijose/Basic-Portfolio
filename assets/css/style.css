@@ -54,7 +54,7 @@ body{
             position: relative;
             bottom:0;
             left:0;
-            top: 0;
+            top: 8px;
         }
 
         .site-link-1 {
@@ -156,101 +156,29 @@ body{
                 height: 700px;
     
             }
-                #img4{
-                    height: 200px;
-                    width: 230px;
-                    padding: 10px 25px 20px 0;
+                #flexbox{
+                    height:200px;
+                    width:230px;
+                    padding:10px 25px 20px 0;
                     margin: 0 auto;
                 }
-                #img5{
-                    height: 200px;
-                    width: 230px;
-                    padding: 0 25px 20px 0;
-                    margin: 0 auto;
-                }
-                #img6{
-                    height: 200px;
-                    width: 230px;
-                    padding: 0 25px 20px 0;
-                    margin: 0 auto;
-                }
-                #img7{
-                    height: 200px;
-                    width: 230px;
-                    padding: 10px 15px 20px 0;
-                    margin: 0 auto;
-                }
-                #img8{
-                    height: 200px;
-                    width: 230px;
-                    padding: 0 15px 20px 0;
-                    margin: 0 auto;
-                }
-            .hangman {
-                font-family: 'Georgia';
-                font-size: 18px;
-                color: whitesmoke;
-                text-align: center;
-                line-height:40px;
-                height:40px;
-                width: 230px;
-                background-color: rgb(15, 163, 138);
-                position: relative;
-                bottom:540px;
-                left:75px;
-            }
-            .rpg {
-                font-family: 'Georgia';
-                font-size: 18px;
-                color: whitesmoke;
-                text-align: center;
-                line-height:40px;
-                height:40px;
-                width: 230px;
-                background-color: rgb(15, 163, 138);
-                position: relative;
-                bottom: 605px;
-                left: 330px;
-            }
-            .trivia {
-                font-family: 'Georgia';
-                font-size: 18px;
-                color: whitesmoke;
-                text-align: center;
-                line-height:40px;
-                height:40px;
-                width: 230px;
-                background-color: rgb(15, 163, 138);
-                position: relative;
-                bottom:450px;
-                left:75px;
-            }
-            .rutgers {
-                font-family: 'Georgia';
-                font-size: 18px;
-                color: whitesmoke;
-                text-align: center;
-                line-height:40px;
-                height:40px;
-                width: 230px;
-                background-color: rgb(15, 163, 138);
-                position: relative;
-                bottom:515px;
-                left:330px;
-            }
-            .rock {
-                font-family: 'Georgia';
-                font-size: 18px;
-                color: whitesmoke;
-                text-align: center;
-                line-height:40px;
-                height:40px;
-                width: 230px;
-                background-color: rgb(15, 163, 138);
-                position: relative;
-                bottom:360px;
-                left:75px;
-            }
+                    #img4{
+                        height: 200px;
+                        width: 230px;
+                    }
+                    #game{
+                        font-family: 'Georgia';
+                        font-size: 18px;
+                        color: whitesmoke;
+                        text-align: center;
+                        line-height:40px;
+                        height:40px;
+                        width: 230px;
+                        background-color: rgb(15, 163, 138);
+                        position: relative;
+                        bottom:80px;
+                        left:0;
+                    }
             .Tags{
                 height:400px;
                 width:520px;
